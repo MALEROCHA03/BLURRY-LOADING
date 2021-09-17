@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Ubuntu", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+}
+
+.bg {
+	background: url("https://k60.kn3.net/taringa/C/3/0/2/B/F/ange1andres/CB3.jpg")
+		no-repeat center center/cover;
+	position: absolute;
+	top: -60px;
+	left: -60px;
+	width: calc(100vw + 120px);
+	height: calc(100vh + 120px);
+	z-index: -1;
+	filter: blur(0px);
+}
+
+.loading-text {
+	font-size: 50px;
+	color: #fff;
+}
